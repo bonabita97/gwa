@@ -27,12 +27,12 @@ let img;
 function preload() {
   for (var  i = 0; i <2; i++) {
   mouths[i] = loadImage('mouths/m' + i + '.png');
-  reyes[i] = loadImage('reyes/r' + i + '.png');
-  leyes[i] = loadImage('leyes/l' + i + '.png');
+  reyes[i] = loadImage('leyes/l' + i + '.png');
+  leyes[i] = loadImage('reyes/r' + i + '.png');
   noses[i] = loadImage('noses/n' + i + '.png');
   faces[i] = loadImage('faces/h' + i + '.png');
-  rears[i] = loadImage('rears/re' + i + '.png');
-  lears[i] = loadImage('lears/le' + i + '.png');
+  rears[i] = loadImage('lears/le' + i + '.png');
+  lears[i] = loadImage('rears/re' + i + '.png');
 
 
 
