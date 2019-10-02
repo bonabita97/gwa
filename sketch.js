@@ -135,7 +135,7 @@ function draw() {
   pop();
   imageMode(CORNER);
   image(video, 0, 0);
-  if (vol > 0.1 ) {
+  if (mouseIsPressed ) {
   r = floor(random(0,3));
   random(loadImage);
   } else {
