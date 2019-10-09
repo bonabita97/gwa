@@ -136,7 +136,7 @@ function draw() {
   imageMode(CORNER);
   image(video, 0, 0);
   if (mouseIsPressed ) {
-  r = floor(random(0,3));
+  r = floor(random(0,2));
   random(loadImage);
   } else {
   //image(faces[r]);
